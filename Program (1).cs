@@ -128,7 +128,7 @@ app.MapGet("/", () => Results.Content("""
 </head>
 <body>
     <div id="header">
-        <h1>💬 ChatApp</h1>
+        <h1>💬 Mat Canavarları</h1>
         <input id="usernameInput" type="text" placeholder="Kullanıcı adın..." value="Kullanıcı" maxlength="20" />
         <button id="connectBtn" onclick="toggleConnect()">Bağlan</button>
         <span id="status">Bağlı değil</span>
